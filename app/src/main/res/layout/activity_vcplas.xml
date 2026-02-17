@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vcplas">
+
+    <ImageView
+        android:id="@+id/imageView106"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:srcCompat="@drawable/jfgffh"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <ImageView
+        android:id="@+id/imageView107"
+        android:layout_width="76dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/sdfghh"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <ImageView
+        android:id="@+id/imageView108"
+        android:layout_width="76dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/rtghjgj"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="400dp"
+        android:layout_height="110dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="619dp" />
+
+    <ImageView
+        android:id="@+id/imageView109"
+        android:layout_width="76dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/glavnaza" />
+
+    <ImageView
+        android:id="@+id/imageView110"
+        android:layout_width="76dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/aaaesfsfbg"
+        tools:layout_editor_absoluteY="630dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
